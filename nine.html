@@ -1,10 +1,12 @@
 <html>
 <head>
+	
 	<title>basic form</title>
 </head>
-<body>
-	<h2>studant Registration form</h2>
-	<form>
+<center>
+<body> 
+<form style="background-color: yellow;">
+	<h2>Studant Registration form</h2>
 	<label>name:</label>
 	<input type="text"Name="name">
 	<br><br>
@@ -18,16 +20,31 @@
 	<br><br>
 	
 	<label>Gender:</label>
+	<input type="radio"Name="gender" value="male">Male
 	<input type="radio"Name="gender" value="female">Female
 	<br><br>
 	
-	<label>course:</label>
+	<label>City:</label>
+	<select Name="course">
+	<option value="ahemedabad">Ahemedabad</option>
+	<option value="surat">surat</option>
+	<option value="bvadodara">vadodara</option>
+	<option value="Rajkot">Rajkot</option>
+	<option value="bhavnagar">bhavnagar</option>
+	<option value="jamnagar">jamnagar</option>
+	<option value="junagh">junagh</option>
+	<option value="Anand">Anand</option>
+	</select>
+	<br><br>
+    
+	<label>course:</label>	
 	<select Name="course">
 	<option value="mca">mca</option>
 	<option value="bca">bca</option>
-	<option value="btech">B.Tech</option>
-</select>
+	<option value="b.Tech">b.tech</option>
+	</select>
 	<br><br>
+	</select>
 	
 	<label>address:</label>
 	<textarea name="address"></textarea>
@@ -35,5 +52,6 @@
 	
 	<input type="submit" value="submit">
 	<input type="reset" value="reset">
+</Center>
 </body></form>
 </html>
