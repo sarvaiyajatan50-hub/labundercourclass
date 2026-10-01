@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>css Filter Example</title>
+			<style> 
+				img {
+				width: 300px;
+				filter: gryscale(100%);
+				transistion: 0.5s;
+				}
+				img:;hover {
+				filter: grayscale(0%) btightness(120%);
+				}
+
+		</style>
+</head>
+
+<body>
+
+	<h2>css Filter Property</h2>
+
+		<img src="sarvaiya.jpg" alt="Flower">
+
+	</body>	
+</html>
+	
+	
+	
+	
